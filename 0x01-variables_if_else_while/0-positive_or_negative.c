@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
+
 /**
  * main - function in C that determines if a number is positive or zero
  *
