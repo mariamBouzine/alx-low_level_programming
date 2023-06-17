@@ -9,24 +9,24 @@ int main(void)
 {
 	int i, x, j;
 
-	i = 38;
-	x = 38;
-	j = 38;
+	i = 48;
+	x = 48;
+	j = 48;
 
-	while (x < 48)
+	while (x < 58)
 	{
-		i = 38;
-		while (i < 38)
+		i = 48;
+		while (i < 58)
 		{
-			j = 38;
-			while (j < 48)
+			j = 48;
+			while (j < 58)
 			{
 				if (x != i && x != j && i != j && x < i && i < j)
 				{
 					putchar(x);
 					putchar(i);
 					putchar(j);
-					if (i == 46 && x == 45 && j == 47)
+					if (i == 56 && x == 55 && j == 57)
 					{
 						break;
 					}
