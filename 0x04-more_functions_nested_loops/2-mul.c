@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +7,7 @@
  * @b: second number.
  * Return: multiplication.
  */
-int mul(int x, int x)
+int mul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 }
